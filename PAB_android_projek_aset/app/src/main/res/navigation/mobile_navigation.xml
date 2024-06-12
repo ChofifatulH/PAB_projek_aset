@@ -26,7 +26,7 @@
     <fragment
         android:id="@+id/nav_bluprint"
         android:name="com.l0122037.pab_android_projek_aset.ui.bluprint.BluprintFragment"
-        android:label="@string/menu_bluprint"
+        android:label="@string/bluprint"
         tools:layout="@layout/fragment_slideshow" />
 
 </navigation>
