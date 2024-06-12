@@ -2,31 +2,31 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@id/nav_home">
 
     <fragment
         android:id="@+id/nav_home"
         android:name="com.l0122037.pab_android_projek_aset.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
-
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.l0122037.pab_android_projek_aset.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
-
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.l0122037.pab_android_projek_aset.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
-
     <fragment
         android:id="@+id/nav_bluprint"
         android:name="com.l0122037.pab_android_projek_aset.ui.bluprint.BluprintFragment"
-        android:label="@string/bluprint"
-        tools:layout="@layout/fragment_slideshow" />
-
+        android:label="Bluprint"
+        tools:layout="@layout/fragment_bluprint" />
+    <fragment
+        android:id="@+id/nav_prasarana1"
+        android:name="com.l0122037.pab_android_projek_aset.ui.prasarana.Prasarana1Fragment"
+        android:label="Prasarana 1"
+        tools:layout="@layout/fragment_prasarana1" />
 </navigation>
