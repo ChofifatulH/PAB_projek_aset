@@ -20,6 +20,11 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
+        android:id="@+id/nav_aset"
+        android:name="com.l0122037.pab_android_projek_aset.ui.aset.AsetFragment"
+        android:label="Aset"
+        tools:layout="@layout/fragment_aset" />
+    <fragment
         android:id="@+id/nav_bluprint"
         android:name="com.l0122037.pab_android_projek_aset.ui.bluprint.BluprintFragment"
         android:label="Bluprint"
