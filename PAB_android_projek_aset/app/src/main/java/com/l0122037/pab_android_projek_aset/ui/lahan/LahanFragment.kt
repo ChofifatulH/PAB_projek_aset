@@ -8,8 +8,8 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.l0122017.alvito.projectakhir.R
-import com.l0122017.alvito.projectakhir.databinding.FragmentLahanBinding
+import com.l0122037.pab_android_projek_aset.R
+import com.l0122037.pab_android_projek_aset.databinding.FragmentLahanBinding
 
 class LahanFragment : Fragment(), LahanAdapter.OnItemClickCallback {
 

@@ -8,16 +8,12 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
     <string name="menu_bluprint">Bluprint</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bluprint">Bluprint</string>
 
     <string name="menu_lahan">Lokasi Kepemilikan Lahan</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
 
     <string name="nama_tabel">Lahan</string>
     <string name="refresh">refresh</string>
