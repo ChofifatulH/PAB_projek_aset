@@ -71,16 +71,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d957846-535f-45ac-a541-4e06362fb02f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/java/com/l0122037/pab_android_projek_aset/ui/aset/GedungAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/res/layout/item_gedung.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/java/com/l0122037/pab_android_projek_aset/ui/aset/AsetFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/java/com/l0122037/pab_android_projek_aset/ui/aset/AsetFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/java/com/l0122037/pab_android_projek_aset/ui/aset/TabelDataGedungFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/java/com/l0122037/pab_android_projek_aset/ui/aset/TabelDataGedungFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/res/layout/fragment_aset.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/res/layout/fragment_aset.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PAB_android_projek_aset/app/src/main/res/values/strings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2d957846-535f-45ac-a541-4e06362fb02f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +164,7 @@
     "git-widget-placeholder": "angga",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/git pulls/PAB_projek_aset/PAB_android_projek_aset"
+    "last_opened_file_path": "D:/git pulls/PAB_projek_aset"
   }
 }]]></component>
   <component name="RecentsManager">
