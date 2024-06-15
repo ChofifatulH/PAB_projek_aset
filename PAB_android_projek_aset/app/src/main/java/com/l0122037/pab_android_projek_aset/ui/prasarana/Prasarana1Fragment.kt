@@ -1,56 +1,42 @@
-package com.l0122037.pab_android_projek_aset.ui.prasarana
-
+// Prasarana1Fragment.kt
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.l0122037.pab_android_projek_aset.R
+import com.l0122037.pab_android_projek_aset.ui.prasarana.Prasarana1Adapter
 
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
+class Prasarana1Fragment<Prasarana> : Fragment() {
 
-/**
- * A simple [Fragment] subclass.
- * Use the [Prasarana1Fragment.newInstance] factory method to
- * create an instance of this fragment.
- */
-class Prasarana1Fragment : Fragment() {
-    private var param1: String? = null
-    private var param2: String? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var prasarana1Adapter: Prasarana1Adapter
+    private lateinit var prasaranaList: MutableList<Prasarana>
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_prasarana1, container, false)
-    }
+        val view = inflater.inflate(R.layout.fragment_prasarana1, container, false)
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment Prasarana1Fragment.
-         */
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            Prasarana1Fragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+        // Initialize RecyclerView
+        recyclerView = view.findViewById(R.id.recyclerViewPrasarana1)
+        recyclerView.layoutManager = LinearLayoutManager(activity)
+
+        // Initialize Data
+        prasaranaList = mutableListOf(
+            Prasarana("Nama Prasarana 1", "Jenis 1"),
+            Prasarana("Nama Prasarana 2", "Jenis 2")
+            // Tambahkan lebih banyak data sesuai kebutuhan
+        )
+
+        // Set Adapter
+        prasarana1Adapter = Prasarana1Adapter(prasaranaList)
+        recyclerView.adapter = prasarana1Adapter
+
+        return view
     }
 }

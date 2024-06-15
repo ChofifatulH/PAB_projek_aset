@@ -7,8 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.l0122017.alvito.projectakhir.R
-import com.l0122017.alvito.projectakhir.databinding.FragmentDetailLahanBinding
+import com.l0122037.pab_android_projek_aset.databinding.FragmentDetailLahanBinding
 
 class DetailLahanFragment : Fragment() {
 
