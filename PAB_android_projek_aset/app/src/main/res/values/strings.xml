@@ -14,4 +14,17 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bluprint">Bluprint</string>
+
+    <string-array name="tahun_array">
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+    </string-array>
+
+    <string-array name="gedung_data">
+        <item>1,Bangunan Gedung Laboratorium Permanen,1,201</item>
+        <item>2,Bangunan Gedung Pendidikan Permanen,1,1488</item>
+        <item>3,Bangunan Gedung Pertemuan Permanen,1,160</item>
+        <!-- Add more items here -->
+    </string-array>
 </resources>

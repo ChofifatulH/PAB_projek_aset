@@ -33,6 +33,8 @@ class AsetFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_aset, container, false)
     }
 
+
+
     companion object {
         /**
          * Use this factory method to create a new instance of
@@ -51,5 +53,6 @@ class AsetFragment : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
             }
+        
     }
 }

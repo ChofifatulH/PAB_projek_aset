@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
 
         appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_bluprint, R.id.nav_prasarana1), // Menambahkan ID fragment
+            setOf(R.id.nav_home, R.id.nav_aset, R.id.nav_bluprint, R.id.nav_prasarana1), // Menambahkan ID fragment
             drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
