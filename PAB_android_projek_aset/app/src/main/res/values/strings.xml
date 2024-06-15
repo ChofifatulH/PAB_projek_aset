@@ -14,4 +14,63 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bluprint">Bluprint</string>
+
+    <string name="menu_lahan">Lokasi Kepemilikan Lahan</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="nama_tabel">Lahan</string>
+    <string name="refresh">refresh</string>
+
+    <string name="no">No</string>
+    <string name="lokasi_lahan">Lokasi Lahan</string>
+    <string name="status_kepemilikan">Status Kepemilikan</string>
+    <string name="penggunaan_lahan">Penggunaan Lahan</string>
+    <string name="luas_lahan">Luas Lahan</string>
+    <string name="total">Total</string>
+    <string name="detail">Detail</string>
+    <string name="lokasi">...</string>
+    <string name="Status">...</string>
+    <string name="Penggunaan">...</string>
+    <string name="luas">...</string>
+
+    <string-array name="data_lokasi">
+        <item>Karanganyar</item>
+        <item>Solo</item>
+        <item>Surakarta</item>
+        <item>Surakarta</item>
+        <item>Surakarta</item>
+        <item>Surakarta</item>
+        <item>Surakarta</item>
+    </string-array>
+
+    <string-array name="data_status">
+        <item>Owned</item>
+        <item>Rented</item>
+        <item>Government</item>
+        <item>Government</item>
+        <item>Government</item>
+        <item>Government</item>
+        <item>Government</item>
+    </string-array>
+
+    <string-array name="data_penggunaan">
+        <item>Agricultural</item>
+        <item>Residential</item>
+        <item>Commercial</item>
+        <item>Commercial</item>
+        <item>Commercial</item>
+        <item>Commercial</item>
+        <item>Commercial</item>
+    </string-array>
+
+    <string-array name="data_luas">
+        <item>1000 m²</item>
+        <item>500 m²</item>
+        <item>1500 m²</item>
+        <item>1500 m²</item>
+        <item>1500 m²</item>
+        <item>1500 m²</item>
+        <item>1500 m²</item>
+    </string-array>
 </resources>
